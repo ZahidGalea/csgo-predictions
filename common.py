@@ -12,7 +12,7 @@ def request(url):
         try:
             api_response = requests.post(
                 "https://api.zyte.com/v1/extract",
-                auth=("6fc16220220a476991fe101c69702139", ""),
+                auth=("", ""),
                 json={
                     "url": url,
                     "httpResponseBody": True,
